@@ -78,7 +78,9 @@
 
 @media (max-width:430px) {
 
-
+#headcon{
+  height: 80px;
+}
   #headcon .name h1
    {
     font-size: 25px;
