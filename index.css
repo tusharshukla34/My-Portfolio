@@ -10,7 +10,6 @@
   width: 100%;
   height: 100px;
   gap: 10px;
-  border: 1px solid black;
   background-color: #e9e8e6;
   box-shadow: 0px 3px 10px black;
 }
@@ -21,6 +20,7 @@
   font-size: 32px;
   font-weight: 300;
   text-transform: uppercase;
+  margin-left: 10px;
 }
 
 #headcon nav ul {
@@ -67,4 +67,9 @@
   display: flex;
   gap: 10px;
   opacity: 0.6;
+  margin-right: 10px;
+}
+
+#headcon .iconcon a {
+  color: black;
 }
