@@ -139,9 +139,12 @@
   height: 100vh;
   background-color: aqua;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#aboutpage .about{
+#aboutpage .about {
   width: 100%;
   height: auto;
   background-color: bisque;
@@ -150,26 +153,45 @@
   align-items: center;
   flex-direction: column;
   position: absolute;
+  z-index: 10;
   top: 170px;
   gap: 20px;
 }
 
-#aboutpage .about h1{
-font-size: 30px;
-font-family: sans-serif;
+#aboutpage .about h1 {
+  font-size: 30px;
+  font-family: sans-serif;
 }
 
-#aboutpage .about hr{
-width: 50px;
-height: 2.5px;
-border: transparent;
-background-color: #34B7A7;
+#aboutpage .about hr {
+  width: 50px;
+  height: 2.5px;
+  border: transparent;
+  background-color: #34b7a7;
 }
 
-#aboutpage .about p{
-font-size: 18px;
-
+#aboutpage .about p {
+  font-size: 18px;
 }
+
+#aboutpage .aboutcon1 {
+  background-color: antiquewhite;
+  width: 90%;
+  height: 90vh;
+  position: absolute;
+  top: 300px;
+}
+
+#aboutpage .aboutcon1 .imgcon {
+  width: 30%;
+  height: 400px;
+  background-color: black;
+}
+
+#aboutpage .aboutcon1 .aboutcon2 {
+  border: 1px solid black;
+}
+
 /* media query strat here */
 
 @media (max-width: 430px) {
