@@ -1,14 +1,11 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-
-
-
 /* header page start here */
-
-
 
 #headcon {
   display: flex;
@@ -82,55 +79,73 @@
   color: black;
 }
 
-
-
 /* header page ends here */
-
-
 
 /* section 1 start here */
 
-#sec1{
+#sec1 {
   width: 100%;
   height: 100vh;
-  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#sec1 .sec1con{
+#sec1 .sec1con {
   width: auto;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 100px;
 }
 
-#sec1 .sec1con h1{
- font-size: 30px;
+#sec1 .sec1con h1 {
+  font-size: 50px;
+  font-family: sans-serif;
 }
 
-#sec1 .sec1con p{
- font-size: 12px;
+#sec1 .sec1con p {
+  font-size: 20px;
+  font-weight: 300;
 }
 
-#sec1 .sec1con button{
-width: 100px;
-height: 40px;
-border: 1px solid black;
-border-radius: 30px;
-background-color: orangered;
-color: white;
+#sec1 .sec1con button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: #34b7a7;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#sec1 .sec1con button:hover {
+  transition: all 0.8s ease;
+
+  background-color: #3bcebd;
+}
+
+/* section 1 ends here */
+
+/* about page start here */
+
+#aboutpage {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
 }
 
 /* media query strat here */
 
-@media (max-width:430px) {
-
-#headcon{
-  height: 80px;
-}
-  #headcon .name h1
-   {
+@media (max-width: 430px) {
+  #headcon {
+    height: 80px;
+  }
+  #headcon .name h1 {
     font-size: 25px;
   }
-
 }
