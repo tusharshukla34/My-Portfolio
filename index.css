@@ -16,7 +16,8 @@
   gap: 10px;
   background-color: #e9e8e6;
   box-shadow: 0px 3px 10px black;
-  position: absolute;
+  position: fixed;
+  z-index: 1000;
 }
 
 #headcon .name h1 {
@@ -83,7 +84,7 @@
 
 /* section 1 start here */
 
-#sec1 {
+#homepage {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -91,7 +92,7 @@
   align-items: center;
 }
 
-#sec1 .sec1con {
+#homepage .homepagecon {
   width: auto;
   height: auto;
   display: flex;
@@ -102,17 +103,17 @@
   margin-top: 100px;
 }
 
-#sec1 .sec1con h1 {
+#homepage .homepagecon h1 {
   font-size: 50px;
   font-family: sans-serif;
 }
 
-#sec1 .sec1con p {
+#homepage .homepagecon p {
   font-size: 20px;
   font-weight: 300;
 }
 
-#sec1 .sec1con button {
+#homepage .homepagecon button {
   width: 150px;
   height: 40px;
   border: 1px solid transparent;
@@ -123,7 +124,7 @@
   text-transform: uppercase;
 }
 
-#sec1 .sec1con button:hover {
+#homepage .homepagecon button:hover {
   transition: all 0.8s ease;
 
   background-color: #3bcebd;
@@ -137,8 +138,38 @@
   width: 100%;
   height: 100vh;
   background-color: aqua;
+  position: relative;
 }
 
+#aboutpage .about{
+  width: 100%;
+  height: auto;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 170px;
+  gap: 20px;
+}
+
+#aboutpage .about h1{
+font-size: 30px;
+font-family: sans-serif;
+}
+
+#aboutpage .about hr{
+width: 50px;
+height: 2.5px;
+border: transparent;
+background-color: #34B7A7;
+}
+
+#aboutpage .about p{
+font-size: 18px;
+
+}
 /* media query strat here */
 
 @media (max-width: 430px) {
