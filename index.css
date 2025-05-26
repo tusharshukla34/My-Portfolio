@@ -191,57 +191,48 @@
   height: 500px;
 }
 
-
-#aboutpage .aboutcon1{
+#aboutpage .aboutcon1 {
   display: flex;
 }
 
-
-#aboutpage .aboutcon1 .aboutcon2{
- display: flex;
- align-items: flex-start;
- flex-direction: column;
- gap: 30px;
- margin-left: 30px;
+#aboutpage .aboutcon1 .aboutcon2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 30px;
 }
 
-#aboutpage .aboutcon1 .aboutcon2 h1{
-font-size: 30px;
-font-family: sans-serif;
-opacity: 0.9;
+#aboutpage .aboutcon1 .aboutcon2 h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  opacity: 0.9;
 }
 
-#aboutpage .aboutcon1 .aboutcon2 p{
-font-family: sans-serif;
+#aboutpage .aboutcon1 .aboutcon2 p {
+  font-family: sans-serif;
 }
 
-
-#aboutpage .aboutcon1 .aboutcon2 .aboutgrid{
-display: grid;
-width: 90%;
-height: auto;
-gap: 30px;
-grid-template-columns: auto auto;
+#aboutpage .aboutcon1 .aboutcon2 .aboutgrid {
+  display: grid;
+  width: 90%;
+  height: auto;
+  gap: 30px;
+  grid-template-columns: auto auto;
 }
 
-
-
-#aboutpage .aboutcon1 .aboutcon2 .aboutgrid div{
+#aboutpage .aboutcon1 .aboutcon2 .aboutgrid div {
   width: 270px;
   height: auto;
   font-size: 16px;
   opacity: 0.8;
 }
 
-#aboutpage .aboutcon1 .aboutcon2 .aboutgrid div i{
+#aboutpage .aboutcon1 .aboutcon2 .aboutgrid div i {
   color: #34b7a7;
   font-size: 20px;
   margin-right: 5px;
-  
 }
-
-
-
 
 /* media query strat here */
 
