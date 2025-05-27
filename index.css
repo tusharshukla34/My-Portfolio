@@ -340,6 +340,13 @@
 
 /* journey page starts from here */
 
+#resumepage{
+  width: 100%;
+  height: 140vh;
+  background-color: bisque;
+}
+
+
 /* media query strat here */
 
 @media (max-width: 430px) {
