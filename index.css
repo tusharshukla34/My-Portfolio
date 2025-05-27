@@ -346,6 +346,59 @@
   background-color: bisque;
 }
 
+#resumepage .imgcon{
+  display: flex;
+  gap: 30px;
+}
+
+
+#resumepage .imgcon .snap {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+    display: flex; 
+    justify-content: center; 
+}
+
+
+#resumepage .imgcon .snap span {
+    display: inline-block; 
+    position: relative; 
+    animation: bounce 1s ease-in-out infinite; 
+}
+
+/* the animation delay for each letter */
+#resumepage .imgcon .snap span:nth-child(1) { animation-delay: 0.0s; } 
+#resumepage .imgcon .snap span:nth-child(2) { animation-delay: 0.1s; }
+#resumepage .imgcon .snap span:nth-child(3) { animation-delay: 0.2s; } 
+#resumepage .imgcon .snap span:nth-child(4) { animation-delay: 0.3s; } 
+#resumepage .imgcon .snap span:nth-child(5) { animation-delay: 0.4s; } 
+#resumepage .imgcon .snap span:nth-child(6) { animation-delay: 0.5s; } 
+#resumepage .imgcon .snap span:nth-child(7) { animation-delay: 0.6s; } 
+#resumepage .imgcon .snap span:nth-child(8) { animation-delay: 0.7s; }
+#resumepage .imgcon .snap span:nth-child(9) { animation-delay: 0.8s; }
+
+
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Start and end at original position */
+    }
+    25% {
+        transform: translateY(-10px); /* Bounce up */
+    }
+    50% {
+        transform: translateY(0); /* Come back down */
+    }
+    75% {
+        transform: translateY(-5px); /* Smaller secondary bounce up */
+    }
+}
+
+
+
 
 /* media query strat here */
 
