@@ -345,6 +345,7 @@
   height: 140vh;
   background-color: bisque;
   display: flex;
+  background-color: #3bcebd;
 }
 
 #resumepage .imgcon {
