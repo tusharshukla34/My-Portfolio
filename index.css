@@ -353,17 +353,15 @@
   flex-direction: column;
 }
 
-
-
-#resumepage .resumename{
+#resumepage .resumename {
   width: 90%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-      gap: 30px;
-      margin-top: 105px;
+  gap: 30px;
+  margin-top: 105px;
 }
 
 #resumepage .resumename h1 {
@@ -379,26 +377,27 @@
   background-color: #34b7a7;
 }
 
-#resumepage .rmain{
+#resumepage .rmain {
   background-color: greenyellow;
   width: 90%;
   height: 900px;
   display: flex;
+  position: relative;
 }
 
-#resumepage .rmain .rcon1{
+#resumepage .rmain .rcon1 {
   background-color: aquamarine;
   width: 50%;
   height: 100px;
 }
 
-#resumepage .rmain .rcon2{
+#resumepage .rmain .rcon2 {
   background-color: rgb(165, 127, 255);
   width: 50%;
   height: 100px;
 }
 
-#resumepage .rmain .rcon1 .rbox1{
+#resumepage .rmain .rcon1 .rbox1 {
   padding: 30px;
   background-color: antiquewhite;
   display: flex;
@@ -406,21 +405,19 @@
   flex-direction: column;
 }
 
-
-#resumepage .rmain .rcon1 .rbox1 h3.schooling{
+#resumepage .rmain .rcon1 .rbox1 h3.schooling {
   font-size: 25px;
   text-decoration: none;
-  font-weight: normal; 
-  color: #696969;
-  
-}
-
-#resumepage .rmain .rcon1 .rbox1 .schoolname{
-   font-size: 17px;
+  font-weight: normal;
   color: #696969;
 }
 
-#resumepage .rmain .rcon1 .rbox2{
+#resumepage .rmain .rcon1 .rbox1 .schoolname {
+  font-size: 17px;
+  color: #696969;
+}
+
+#resumepage .rmain .rcon1 .rbox2 {
   padding: 30px;
   background-color: antiquewhite;
   display: flex;
@@ -428,21 +425,19 @@
   flex-direction: column;
 }
 
-
-#resumepage .rmain .rcon1 .rbox2 h3.schooling{
+#resumepage .rmain .rcon1 .rbox2 h3.schooling {
   font-size: 25px;
   text-decoration: none;
-  font-weight: normal; 
-  color: #696969;
-  
-}
-
-#resumepage .rmain .rcon1 .rbox2 .schoolname{
-   font-size: 17px;
+  font-weight: normal;
   color: #696969;
 }
 
-#resumepage .rmain .rcon1 .rbox3{
+#resumepage .rmain .rcon1 .rbox2 .schoolname {
+  font-size: 17px;
+  color: #696969;
+}
+
+#resumepage .rmain .rcon1 .rbox3 {
   padding: 30px;
   background-color: antiquewhite;
   display: flex;
@@ -450,21 +445,39 @@
   flex-direction: column;
 }
 
-
-#resumepage .rmain .rcon1 .rbox3 h3.schooling{
+#resumepage .rmain .rcon1 .rbox3 h3.schooling {
   font-size: 25px;
   text-decoration: none;
-  font-weight: normal; 
-  color: #696969;
-  
-}
-
-#resumepage .rmain .rcon1 .rbox3 .schoolname{
-   font-size: 17px;
+  font-weight: normal;
   color: #696969;
 }
 
-#resumepage .rmain .circle{
+#resumepage .rmain .rcon1 .rbox3 .schoolname {
+  font-size: 17px;
+  color: #696969;
+}
+
+#resumepage .rmain .rcon1 .rbox4 {
+  padding: 30px;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#resumepage .rmain .rcon1 .rbox4 h3.schooling {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #696969;
+}
+
+#resumepage .rmain .rcon1 .rbox4 .schoolname {
+  font-size: 17px;
+  color: #696969;
+}
+
+#resumepage .rmain .circle {
   width: 15px;
   border: 2px solid black;
   height: 15px;
@@ -472,29 +485,16 @@
   position: absolute;
 }
 
-#resumepage .rmain hr.journey{
-  width: 100px;
-  height: 2.5px;
-  background-color: #696969;
-  transform: rotate(90deg);
- border: transparent;
- position: absolute;
+#resumepage .rmain hr.journey {
+  width: 714px;
+    top: 430px;
+    left: -342px;
+    height: 2.5px;
+    background-color: #696969;
+    transform: rotate(90deg);
+    border: transparent;
+    position: absolute;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media query strat here */
 
