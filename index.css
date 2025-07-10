@@ -406,6 +406,64 @@
   flex-direction: column;
 }
 
+
+#resumepage .rmain .rcon1 .rbox1 h3.schooling{
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal; 
+  color: #696969;
+  
+}
+
+#resumepage .rmain .rcon1 .rbox1 .schoolname{
+   font-size: 17px;
+  color: #696969;
+}
+
+#resumepage .rmain .rcon1 .rbox2{
+  padding: 30px;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+
+#resumepage .rmain .rcon1 .rbox2 h3.schooling{
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal; 
+  color: #696969;
+  
+}
+
+#resumepage .rmain .rcon1 .rbox2 .schoolname{
+   font-size: 17px;
+  color: #696969;
+}
+
+#resumepage .rmain .rcon1 .rbox3{
+  padding: 30px;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+
+#resumepage .rmain .rcon1 .rbox3 h3.schooling{
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal; 
+  color: #696969;
+  
+}
+
+#resumepage .rmain .rcon1 .rbox3 .schoolname{
+   font-size: 17px;
+  color: #696969;
+}
+
 #resumepage .rmain .circle{
   width: 15px;
   border: 2px solid black;
@@ -424,18 +482,6 @@
 }
 
 
-#resumepage .rmain .rcon1 .rbox1 h3.schooling{
-  font-size: 25px;
-  text-decoration: none;
-  font-weight: normal; 
-  color: #696969;
-  
-}
-
-#resumepage .rmain .rcon1 .rbox1 .schoolname{
-   font-size: 17px;
-  color: #696969;
-}
 
 
 
