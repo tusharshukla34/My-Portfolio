@@ -346,11 +346,37 @@
   background-color: rgba(97, 193, 95, 0.82);
   display: flex;
   background-color: #3bcebd;
+  display: flex;
+  justify-content: center;
 }
 
-#resumepage .imgcon {
+/* #resumepage .imgcon {
   display: flex;
   gap: 30px;
+} */
+
+
+#resumepage .resumename{
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+      gap: 30px;
+}
+
+#resumepage .resumename h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  opacity: 0.9;
+}
+
+#resumepage .resumename .line {
+  width: 50px;
+  height: 2.5px;
+  border: transparent;
+  background-color: #34b7a7;
 }
 
 
