@@ -348,13 +348,11 @@
   background-color: #475f5c;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
+  flex-direction: column;
 }
 
-/* #resumepage .imgcon {
-  display: flex;
-  gap: 30px;
-} */
 
 
 #resumepage .resumename{
@@ -382,9 +380,23 @@
 }
 
 #resumepage .rmain{
-  
+  background-color: greenyellow;
+  width: 90%;
+  height: 900px;
+  display: flex;
 }
 
+#resumepage .rmain .rcon1{
+  background-color: aquamarine;
+  width: 50%;
+  height: 100px;
+}
+
+#resumepage .rmain .rcon2{
+  background-color: rgb(165, 127, 255);
+  width: 50%;
+  height: 100px;
+}
 
 
 
