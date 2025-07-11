@@ -479,7 +479,8 @@
 
 #resumepage .rmain .circle {
   width: 15px;
-  border: 2px solid black;
+  border: 2px solid #34b7a7;
+  background-color: white;
   height: 15px;
   border-radius: 50%;
   position: absolute;
@@ -490,7 +491,7 @@
     top: 430px;
     left: -342px;
     height: 2.5px;
-    background-color: #696969;
+    background-color: #34b7a7;
     transform: rotate(90deg);
     border: transparent;
     position: absolute;
