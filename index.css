@@ -361,7 +361,8 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  margin-top: 105px;
+  margin-top: 230px;
+  position: relative;
 }
 
 #resumepage .resumename h1 {
@@ -388,13 +389,13 @@
 #resumepage .rmain .rcon1 {
   background-color: aquamarine;
   width: 50%;
-  height: 100px;
+  height: auto;
 }
 
 #resumepage .rmain .rcon2 {
   background-color: rgb(165, 127, 255);
   width: 50%;
-  height: 100px;
+  height: auto;
 }
 
 #resumepage .rmain .rcon1 .rbox1 {
@@ -484,6 +485,38 @@
   height: 15px;
   border-radius: 50%;
   position: absolute;
+  top: 62px;
+    left: 7px;
+}
+#resumepage .rmain .circle1 {
+  width: 15px;
+  border: 2px solid #34b7a7;
+  background-color: white;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 241px;
+    left: 7px;
+}
+#resumepage .rmain .circle2 {
+  width: 15px;
+  border: 2px solid #34b7a7;
+  background-color: white;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 415px;
+    left: 7px;
+}
+#resumepage .rmain .circle3 {
+  width: 15px;
+  border: 2px solid #34b7a7;
+  background-color: white;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 646px;
+    left: 7px;
 }
 
 #resumepage .rmain hr.journey {
@@ -495,6 +528,44 @@
     transform: rotate(90deg);
     border: transparent;
     position: absolute;
+}
+
+#resumepage .rmain .rcon2 hr.rline2 {
+  width: 444px;
+    top: 302px;
+    left: 350px;
+    height: 2.5px;
+    background-color: #34b7a7;
+    transform: rotate(90deg);
+    border: transparent;
+    position: absolute;
+}
+
+#resumepage .rmain .rcon2 .rcircle2 {
+  width: 15px;
+  border: 2px solid #34b7a7;
+  background-color: white;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 66px;
+    left: 564px;
+}
+
+#resumepage .rmain .rcon2 .r2box{
+  padding: 30px;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+
+#resumepage .rmain .rcon2 .r2box h3.schooling {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #696969;
 }
 
 /* media query strat here */
